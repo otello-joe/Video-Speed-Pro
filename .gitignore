@@ -1,0 +1,17 @@
+# 忽略二进制引擎
+ffmpeg.exe
+ffprobe.exe
+ffplay.exe
+
+# 忽略 Python 缓存
+__pycache__/
+*.pyc
+
+# 忽略打包产生的临时文件
+build/
+dist/
+*.spec
+
+# 忽略虚拟环境
+venv/
+.venv/
